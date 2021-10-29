@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4704AE45272ADB820092A034 /* Mute It WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4704AE44272ADB820092A034 /* Mute It WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4704AE45272ADB820092A034 /* Mute It.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4704AE44272ADB820092A034 /* Mute It.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4704AE4B272ADB820092A034 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4704AE49272ADB820092A034 /* Interface.storyboard */; };
 		4704AE4D272ADB820092A034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4704AE4C272ADB820092A034 /* Assets.xcassets */; };
 		4704AE53272ADB820092A034 /* Mute It WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4704AE52272ADB820092A034 /* Mute It WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -15,6 +15,7 @@
 		4704AE5A272ADB820092A034 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4704AE59272ADB820092A034 /* ExtensionDelegate.swift */; };
 		4704AE5C272ADB820092A034 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4704AE5B272ADB820092A034 /* ComplicationController.swift */; };
 		4704AE5E272ADB830092A034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4704AE5D272ADB830092A034 /* Assets.xcassets */; };
+		47826123272AF39E00FFB408 /* waterSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47826122272AF39E00FFB408 /* waterSound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +53,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				4704AE45272ADB820092A034 /* Mute It WatchKit App.app in Embed Watch Content */,
+				4704AE45272ADB820092A034 /* Mute It.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,7 +62,7 @@
 
 /* Begin PBXFileReference section */
 		4704AE40272ADB820092A034 /* Mute It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mute It.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4704AE44272ADB820092A034 /* Mute It WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mute It WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4704AE44272ADB820092A034 /* Mute It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mute It.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4704AE4A272ADB820092A034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		4704AE4C272ADB820092A034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4704AE52272ADB820092A034 /* Mute It WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Mute It WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +71,7 @@
 		4704AE5B272ADB820092A034 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		4704AE5D272ADB830092A034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4704AE5F272ADB830092A034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47826122272AF39E00FFB408 /* waterSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = waterSound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				4704AE40272ADB820092A034 /* Mute It.app */,
-				4704AE44272ADB820092A034 /* Mute It WatchKit App.app */,
+				4704AE44272ADB820092A034 /* Mute It.app */,
 				4704AE52272ADB820092A034 /* Mute It WatchKit Extension.appex */,
 			);
 			name = Products;
@@ -119,6 +121,7 @@
 				4704AE5B272ADB820092A034 /* ComplicationController.swift */,
 				4704AE5D272ADB830092A034 /* Assets.xcassets */,
 				4704AE5F272ADB830092A034 /* Info.plist */,
+				47826122272AF39E00FFB408 /* waterSound.mp3 */,
 			);
 			path = "Mute It WatchKit Extension";
 			sourceTree = "<group>";
@@ -157,7 +160,7 @@
 			);
 			name = "Mute It WatchKit App";
 			productName = "Mute It WatchKit App";
-			productReference = 4704AE44272ADB820092A034 /* Mute It WatchKit App.app */;
+			productReference = 4704AE44272ADB820092A034 /* Mute It.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
 		4704AE51272ADB820092A034 /* Mute It WatchKit Extension */ = {
@@ -239,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47826123272AF39E00FFB408 /* waterSound.mp3 in Resources */,
 				4704AE5E272ADB830092A034 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,15 +405,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZNR2D834QB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Mute It WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Mute It WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mute It";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Mute_It_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = Mute_It_WatchKit_Extension.ExtensionDelegate;
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -432,15 +437,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZNR2D834QB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Mute It WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Mute It WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mute It";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Mute_It_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = Mute_It_WatchKit_Extension.ExtensionDelegate;
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,7 +454,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "co.almor.Mute-It.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.almor.Mute-It.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -465,16 +471,16 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZNR2D834QB;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Mute_It_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "Mute It WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.almor.Mute-It.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Mute It";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -490,16 +496,16 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZNR2D834QB;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Mute_It_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "Mute It WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.almor.Mute-It.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Mute It";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;

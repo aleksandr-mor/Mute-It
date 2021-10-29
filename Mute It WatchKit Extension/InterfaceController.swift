@@ -6,21 +6,35 @@
 //
 
 import WatchKit
-import Foundation
+import AVFoundation
 
+var sound: AVAudioPlayer!
 
 class InterfaceController: WKInterfaceController {
-
-    override func awake(withContext context: Any?) {
-        // Configure interface objects here.
-    }
     
     override func willActivate() {
-        // This method is called when watch view controller is about to be visible to user
+        
+        let path = Bundle.main.path(forResource: "waterSound.mp3", ofType:nil)!
+        let url = URL(fileURLWithPath: path)
+        
+        do {
+            do {
+                try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default, options: [.mixWithOthers])
+                try AVAudioSession.sharedInstance().setActive(true, options: .notifyOthersOnDeactivation)
+            } catch {
+                print(error)
+            }
+            sound = try AVAudioPlayer(contentsOf: url)
+        } catch {
+            print(error)
+        }
     }
     
-    override func didDeactivate() {
-        // This method is called when watch view controller is no longer visible
+    @IBAction func playSound() {
+        if !sound.isPlaying { 
+            sound.play()
+        }
+        else {sound.stop()}
     }
-
 }
+
