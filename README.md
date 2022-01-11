@@ -1,6 +1,6 @@
 # Mute It Watch App
 ### Apple Watch App made for my friends 🦄  [Unicorn Witnesses](https://unicornwitnesses.com/) 
-#### App for mental health. Water dropping sound helps to avoid discomfort for people sufferning from parcopresis or shy bowel.
+#### App for mental health. Water pouring sound helps to avoid discomfort for people sufferning from parcopresis or shy bowel.
 
 
   ![Screenshot 2021-10-29 at 21 43 40](https://user-images.githubusercontent.com/85921199/139490877-5937e56a-8b68-4025-b5c2-ea60a05fe93b.png)
